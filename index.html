@@ -144,7 +144,7 @@ and how this compares to my experience with new and small organizational reposit
 
 
 <section>
-    <h1>GRASS GIS Project Pitch for NCSU Cybersecurity Practicum</h1>
+    <h1>GRASS GIS Project Pitch</h1>
     <p style="margin-top: 0.5em">
         <a href="http://wenzeslaus.github.io/" style="font-weight: bold">
             Vaclav (Vashek) Petras
@@ -158,7 +158,11 @@ and how this compares to my experience with new and small organizational reposit
         <a href="http://www.ncsu.edu/" title="North Carolina State University">North Carolina State University</a>
     </p>
     <img src="img/grass_gis.svg" class="stretch" alt="GRASS GIS logo">
-    <p><small>Raleigh, January 10, 2024</small></p>
+    <p><small>
+        NCSU Cybersecurity Practicum
+        <br>
+        Raleigh, January 10, 2024
+    </small></p>
     <p>
         <a href="https://wenzeslaus.github.io/grass-gis-cybersecurity-practicum-pitch/">wenzeslaus.github.io/grass-gis-cybersecurity-practicum-pitch</a>
 </section>
@@ -167,23 +171,81 @@ and how this compares to my experience with new and small organizational reposit
 <section class="textimg">
 <h2>Vaclav (Vashek) Petras</h2>
 <div>
-    Geospatial Research Software Engineer at North Carolina State University
+    Geospatial Research Software Engineer
     <p>
     <img src="img/ncsu.svg" alt="North Carolina State University">
     <img src="img/ncsu_cga.svg" alt="Center for Geospatial Analytics at NC State">
     </p>
-
-    <p><small>
-        Research software engineering as a service, Tangible Landscape support, open source development, skill-transfer at
-        <a href="https://cnr.ncsu.edu/geospatial/engage/service-center/">geospatial.ncsu.edu</a>
-    </small></p>
+    <p>
+        <em>At the Center for Geospatial Analytics, we push the boundaries of geospatial data science to make discoveries and get important work done.</em>
+    </p>
+    <p>
+        ...through model development, skill-transfer, GRASS GIS development, ...
+    </p>
 </div>
 <img src="img/cli_tangible.png">
 </section>
 
 
 <section>
-    <h2>General Features</h2>
+    <h2>GRASS GIS</h2>
+    <p>
+        Mission: <em>Bringing advanced geospatial technologies to the world</em>
+    </p>
+    <ul>
+        <li>Innovation with Stability &amp; All-in-one Software Suite
+            
+    </ul>
+    <img src="img/lidar_city.png" class="stretch">
+</section>
+
+
+<section>
+    <h2>Why We Use GRASS GIS?</h2>
+    <ul>
+        <li>Big-data processing, including 2-4D array data support</li>
+        <li>Tooling to build and long-term support of custom models</li>
+    </ul>
+    <img src="img/futures_animation_conus.gif" class="stretch">
+    <br>
+    <small><small><em>30 m urban growth across the US, 2020 to 2100 (16 billion pixels, 50 runs)</em></small></small>
+</section>
+
+
+<section>
+    <h2>Development and Community</h2>
+    <ul>
+        <li>Open-source (GNU GPL)</li>
+        <li>User-driven</li>
+        <li>Multiple companies and institutions</li>
+        <li>Open Source Geospatial Foundation (OSGeo) Project</li>
+        <li>55 unique contributors in the last 2 years</li>
+        <li>
+            2023 code sprint:
+            17&nbsp;in-person participants, 10&nbsp;institutions,
+            9&nbsp;countries, 3&nbsp;continents
+        </li>
+    </ul>
+    <img src="img/osgeo_codesprint_2018.jpg" class="stretch">
+<!--
+    https://github.com/OSGeo/grass/graphs/contributors?from=2022-01-09&to=2024-01-08&type=c
+-->
+</section>
+
+
+<section>
+    <h2>Involvement at NC State</h2>
+    <ul>
+        <li>4 active code contributors</li>
+        <li>3 project steering committee members</li>
+        <li>Lead institution on a National Science Foundation (NSF) grant to support project sustainability</li>
+    </ul>
+    <img src="img/nc_state_spring_2023.jpg" class="stretch">
+</section>
+
+
+<section>
+    <h2>Project and Code Structure</h2>
     <ul>
         <li>
             Command line tools:
@@ -194,32 +256,9 @@ and how this compares to my experience with new and small organizational reposit
         <li>Dynamic libraries (C, C++): <b>50+</b></li>
         <li>Python (sub-)packages (<em> grass.* </em>): <b>10+</b></li>
         <li>Interfaces (native): graphical, command line, Python, C</li>
-        <li>Innovation with Stability &amp; All-in-one Software Suite
-            <small>mission: <em>Bringing advanced geospatial technologies to the world</em></small>
+        <li>3rd party interfaces: REST, R, Java, QGIS</li>
     </ul>
     <img src="img/github_languages_combined.png" class="stretch">
-</section>
-
-
-<section>
-    <h2>Community</h2>
-    <p>
-        Large contributions by:
-        Nicklas Larsson, Anna Petrasova, Carmen Tawalika, Loïc Bartoletti, Vaclav Petras
-    </p>
-    <img src="img/osgeo_codesprint_2018.jpg" class="stretch">
-
-</section>
-
-
-<section>
-    <h2>Development at NC State</h2>
-    <p>
-        Large contributions by:
-        Nicklas Larsson, Anna Petrasova, Carmen Tawalika, Loïc Bartoletti, Vaclav Petras
-    </p>
-    <img src="img/osgeo_codesprint_2018.jpg" class="stretch">
-
 </section>
 
 
@@ -229,9 +268,7 @@ and how this compares to my experience with new and small organizational reposit
         <li>Git</li>
         <li>PRs</li>
         <li>Issues</li>
-        <li>
-            GitHub Actions <small>(A lot of free CI time since 2018.)</small>
-        </li>
+        <li>Checks in GitHub Actions</li>
     </ul>
     <br>
     <img src="img/laptops.jpg" class="stretch">
@@ -239,195 +276,38 @@ and how this compares to my experience with new and small organizational reposit
 
 
 <section>
-    <h2>Python Tools Used in GRASS GIS</h2>
+    <h2>Build Artifacts</h2>
+    <ul>
+        <li>CI generates builds for Linux, macOS, Windows for testing</li>
+        <li>Linux and FreeBSD: packages created by distributions</li>
+        <li>macOS and Windows: installers created by members of the development team</li>
+        <li>In-works: conda package</li>
+        <li>Build tooling: GNU Autotools (migration to CMake started)</li>
+    </ul>
+    <br>
+    <img src="img/laptops.jpg" class="stretch">
+</section>
+
+
+<section>
+    <h2>Tools Used for Code Quality</h2>
     <ul>
         <li>Python code formatted by Black.</li>
         <li>Checked against Flake8.</li>
         <li>Some code checked with Pylint.</li>
+        <li>C and C++ checked with high warnings with GCC and Clang (-Wall -Wextra).</li>
     </ul>
     <img src="img/code_in_vscodium.png" class="stretch">
 </section>
 
 
 <section>
-    <h2>C and C++ Tools Used in GRASS GIS</h2>
-    <ul>
-        <li>GCC, Clang <small>(locally)</small>, Coverity Scan <small>(mostly in the past)</small></li>
-        <li>Many GCC and Clang warnings fixed <small>for 8.0 and 8.2</small>.</li>
-        <li>Compiler warning compliance not yet enforced.</li>
-        <li>
-            GCC runs in CI with GNU C 99-17 and C++ 11-17.
-            <small>Checks mostly C++ language variations.</small>
-        </li>
-    </ul>
-    <img src="img/code_in_qtcreator.png" class="stretch">
-</section>
-
-
-<section>
-    <h2>General Tools Used in GRASS GIS</h2>
-    <ul>
-        <li>CodeQL checks for Python, C, and C++ enabled.</li>
-        <li>
-            Super-Linter checks for JSON, Perl, Powershell, XML, and YAML.
-            <small>Wanted: Bash, CSS, Docker, JavaScript, Markdown, HTML, MegaLinter</small>
-        </li>
-        <li>
-            Spellcheck scripts are in the <code>utils</code> directory <small>(to be used locally)</small>.
-            <small>Wanted: CSpell (possibly through MegaLinter)</small>
-        </li>
-    </ul>
-    <img src="img/markdown_in_gedit.png" class="stretch">
-</section>
-
-
-<section>
-    <h2>Statistics for GRASS GIS</h2>
-
-    <table>
-        <thead>
-            <tr>
-                <th></th>
-                <th>7.8.0</th>
-                <th>main branch</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>PEP 8 formatting</td>
-                <td>25518</td>
-                <td>0*</td>
-            </tr>
-            <tr>
-                <td>Flake8</td>
-                <td>10590</td>
-                <td>3018**</td>
-            </tr>
-            <tr>
-                <td>GCC -Wall -Wextra</td>
-                <td>1200</td>
-                <td>959***</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <small>
-    <p>*Assuming Black compliance equals PEP 8 compliance.</p>
-    <p>** Flake8 issues remaining: comments, start imports, unused variables, invalid escape sequences.</p>
-    <p>*** GCC critical issues fixed: dangling-else, discarded-qualifiers, format, logical-op, parentheses, pointers, restrict, tautological-compare, uninitialized.</p>
-    </small>
-    <!--
-Flake8 now 3018, before 10590, 36108 including formatting
-Flake8 now: comments, start imports, unused, invalid escape sequence
-GCC -Wall -Wextra
-present: unused, sign-compare, shadow, implicit-fallthrough, uninitialized, builtin-declaration-mismatch, type-limits
-fixed: dangling-else, discarded-qualifiers, format, logical-op, parentheses, pointers, restrict, tautological-compare, uninitialized
-    -->
-    <img src="img/grass_logo_development.png" alt="GRASS GIS logo" class="stretch">
-</section>
-
-
-<section>
-    <h2>Work In Progress in GRASS GIS</h2>
+    <h2>Before Automated Code Quality Checks</h2>
 
     <ul>
-        <li>
-            Pylint
-            <ul>
-                <li>
-                    Runs for:
-                    <ul>
-                        <li>grass.jupyter &amp; grass.benchmark</li>
-                        <li>parts of gui/wxpython</li>
-                        <li>all other files except gunittest's testsuite directories</li>
-                    </ul>
-                </li>
-                <li>Different configuration for each group</li>
-
-            </ul>
-        </li>
-        <li>
-            CodeQL
-            <ul>
-                <li>
-                    C and C++: 217 issues
-                    <ul>
-                        <li>Some are false positives for security, but show real issues.</li>
-                        <li>Hard to communicate with contributors, although present in forks.</li>
-                        <li>Cppcheck may work well as an alternative which can run locally.</li>
-                    </ul>
-                </li>
-                <li>
-                    Python: 2 issues
-                    <ul>
-                        <li>Bandit may be a better fit for Python and may find more, but will require a lot of configuration.</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-
-    </ul>
-</section>
-
-
-<section>
-    <h2>Two Linting Tool Examples</h2>
-</section>
-
-
-<section>
-    <h2>C &amp; C++: valgrind</h2>
-
-    <ul>
-        <li>Memcheck is the default tool</li>
-        <li>Check memory usage of a program</li>
-        <li>Detects segmentation faults, leaked memory, &hellip;</li>
-        <li>Runs the program</li>
-    </ul>
-
-    <p>
-
-    In a GRASS session:
-
-    <pre><code data-trim class="no-highlight">
-        valgrind --leak-check=yes r.stats.quantile base=zipcodes cover=elevation quantiles=3 -p
-        valgrind --track-origins=yes --redzone-size=2048 d.legend soil_loss
-    </code></pre>
-
-    Using <code>--exec</code>:
-
-    <pre><code data-trim class="no-highlight">
-        grass --tmp-mapset ~/data/nc_spm/ --exec valgrind r.stats.quantile base=zipcodes cover=elevation quantiles=3 -p
-    </code></pre>
-</section>
-
-
-<section>
-    <h2>Benefits</h2>
-</section>
-
-
-<section>
-    <h2>Automated Formatting Is Easier</h2>
-
-    <ul>
-        <li>
-            Manual formatting according to a standard is hard or impossible,
-            while automatic formatting is easy.
-            <ul>
-                <!--<li>Using a command, editor configuration, GitHub Action, &hellip;</li>-->
-                <li>But: Should really be done using the tool.</li>
-                <!--<li>But: Auto-formatting in PRs confuses contributors</li>-->
-            </ul>
-        </li>
-        <li>
-            No need to discuss style with every change.
-            <ul>
-                <li>...or at least formatting is a separate discussion.</li>
-                <!--<li>&hellip;after the configuration has been created</li>-->
-                <!--<li>Separates the formatting discussion from specific code contributions</li>-->
-            </ul>
-        </li>
+        <li>While there are good tools now, a lot of development happened before many of the current standards and automated tools existed.</li>
+        <li>Disagreements about minor issues led to lack of any standard.</li>
+        <li>Prime example: Manual formatting according to a standard is hard or impossible.</li>
     </ul>
     <br>
     <img src="img/prague_isprs_sprint_cafe_discussion.jpg" class="stretch">
@@ -437,191 +317,60 @@ fixed: dangling-else, discarded-qualifiers, format, logical-op, parentheses, poi
 
 
 <section>
-    <h2>Code Checks Ensure Consistent Quality</h2>
+    <h2>Security is Work In Progress</h2>
+    <ul>
+        <li>
+            CodeQL
+            <ul>
+                <li>
+                    C and C++: 180 open issues
+                    <ul>
+                        <li>Some are false positives for security, but show real issues.</li>
+                        <li>Some of the 251 closed issues may have been mistakenly closed as not relevant for a PR while relevant for the project.</li>
+                    </ul>
+                </li>
+                <li>
+                    Python: 2 issues
+                </li>
+            </ul>
+        </li>
+        <li>Bandit finds more, but will require custom configuration.</li>
+        <li>Coverity Scan used in the past, but is not integrated into CI.</li>
+    </ul>
+    <img src="img/grass_logo_development.png" alt="GRASS GIS logo" class="stretch">
+</section>
+
+
+<section>
+    <h2>Practicum Project Goals</h2>
+    <ul>
+        <li>Make the CI useful for detecting new security issues in PRs</li>
+        <li>Avoid current issues surfacing in unrelated code changes</li>
+        <li>Address the current issues (triage and/or fix)</li>
+        <li>Apply the newly identified set of tools consistently to both code repositories</li>
+        <li>Provide a guidelines on existing security issues and software security priorities for the whole project</li>
+        <li>Stretch goal: manage security issues of the build new or existing artifacts</li>
+    </ul>
+</section>
+
+
+<section>
+    <h2>Everything Should Be Checks in the CI</h2>
 
     <ul>
         <li>
-            Common code quality level, defined, enforced.
-            <ul>
-                <li>Simple rule: <em>If the tools flags it, it needs to be fixed.</em></li>
-            </ul>
+            Whatever the desired code quality and security levels are, they should be enforced in the CI.
         </li>
         <li>
-            No need to check basic coding issues in PR reviews.
-            <ul>
-                <li>Reviewers focus on functionality and project-specific issues.</li>
-                <li>Reviews are hard and cost time, make them simpler!</li>
-            </ul>
+            Generated files should be generated in the CI.
+        </li>
+        <li>
+            Fixing an issue or adding a new process should be connected to an update in CI.
         </li>
     </ul>
     <img src="img/sprint_prague_2019.jpg" class="stretch">
     <br>
-    <small style="font-size: 50%;">Czechs happy after reviewing their code</small>
-</section>
-
-
-<section>
-    <h2>Checks Run On All Code</h2>
-    <ul>
-        <li>Manual testing is always incomplete.</li>
-        <li>Tests need to be written for specific parts of code.</li>
-        <li>
-            Linting has 100% coverage.
-            <ul>
-                <li>if configured that way</li>
-                <li>often with default settings</li>
-                <li>includes old and forgotten helper scripts</li>
-            </ul>
-        </li>
-    </ul>
-    <br>
-    <img src="img/sprint_boston.jpg" class="stretch">
-    <br>
-    <small style="font-size: 50%;">Czechs looking into their code <small>(photo credit: Jody Garnett)</small></small>
-</section>
-
-
-<section>
-    <h2>Even Unrelated Warnings Expose Bugs</h2>
-
-    Code:
-
-    <pre><code data-trim>
-        gs.fatal(_("File does not exist: {name}".format(name=filename)))
-    </code></pre>
-
-    Pylint reports:
-
-    <pre><code data-trim class="no-highlight">
-        Formatting a regular string which could be a f-string (consider-using-f-string)
-    </code></pre>
-
-    <p>
-        Analysis:
-        <ul>
-            <li>
-                Looks like useless warning about not using the latest f-string syntax.
-            </li>
-            <li>
-                Draws attention to a line where a translate function
-                named <code>_</code> (underscore) is used.
-            </li>
-            <li>
-                The <em>format</em> function is called on the string,
-                but it should be called on the result of the translation function.
-            </li>
-        </ul>
-    </p>
-
-    Fixed code:
-
-    <pre><code data-trim class="python language-python">
-        gs.fatal(_("File does not exist: {name}").format(name=filename))
-    </code></pre>
-</section>
-
-
-<section>
-    <h2>Introducing Linters to a Project</h2>
-</section>
-
-
-<section>
-    <h2>Enforce the Standards in CI</h2>
-
-    <ul>
-        <li>Don't rely on contributors running the checks locally.</li>
-        <li>With many checks, you can't even ask for that.</li>
-        <li>But: Have a way to run the checks locally.</li>
-    </ul>
-    <br>
-    <img src="img/prague_isprs_sprint_box.jpg" class="stretch">
-    <br>
-    <small style="font-size: 50%;">Coding in a protective box</small>
-</section>
-
-
-<section>
-    <h2>Tips and Tricks</h2>
-</section>
-
-
-<section>
-    <h2>Be Specific in Excluding and Ignoring</h2>
-    Exclude only specific files or specific checks for specific files.
-
-    <p><small>
-        Flake8 can ignore warnings per file or directory:
-    </small></p>
-
-    <pre><code data-trim class="no-highlight">
-        per-file-ignores =
-            lib/init/grass.py: E501, E722, F821, F841, W605
-            gui/wxpython/vnet/*: F841, E501
-    </code></pre>
-
-    <p><small>
-        Warnings can be easily enabled again later from a single place.
-    </small></p>
-
-    <img src="img/meetup_fishbowl.jpg" class="stretch">
-    <br>
-    <small style="font-size: 50%;">Be transparent in what is ignored</small>
-</section>
-
-
-<section>
-    <h2>Minimize Where Warning is Ignored</h2>
-    Disable only a specific warning for a specific directory, file, or line.
-
-    <p>
-    Yes &mdash; only one line:
-
-    <pre><code data-trim class="python language-python">
-        apple._refresh_core()  # pylint: disable=protected-access
-    </code></pre>
-
-    No &mdash; everything after the line:
-
-    <pre><code data-trim class="python language-python">
-        # pylint: disable=protected-access
-        apple._refresh_core()
-    </code></pre>
-
-    Also: Line ignores and in-file ignores are best for ignores which are there to stay, i.e., the code just has to be that way or the warning does not apply
-    (e.g., access to private or protected methods in tests).
-</section>
-
-
-<section>
-    <h2>Refine Ignores</h2>
-
-    Continue improving your configuration and make it specific to your project.
-
-    <p>
-    Code:
-
-    <pre><code data-trim class="python language-python">
-        gs.fatal(_("File does not exist: {name}").format(name=filename))
-    </code></pre>
-
-    Original error from Pylint:
-
-    <pre><code data-trim class="no-highlight">
-        Undefined variable '_' (undefined-variable)
-    </code></pre>
-
-    Quick fix for Pylint by disabling the reported message:
-
-    <pre><code data-trim class="no-highlight">
-        disable=undefined-variable
-    </code></pre>
-
-    Full fix for Pylint by telling it about our code:
-
-    <pre><code data-trim class="no-highlight">
-        additional-builtins=_
-    </code></pre>
+    <small style="font-size: 50%;">Four Czechs are happy when their code passes checks</small>
 </section>
 
 
@@ -655,133 +404,31 @@ fixed: dangling-else, discarded-qualifiers, format, logical-op, parentheses, poi
 </section>
 
 
-
 <section>
-    <img src="img/grass_gis.svg" alt="GRASS GIS logo" class="stretch">
+    <h2>Contact</h2>
+
     <p>
-        <a href="https://github.com/OSGeo/grass/"><small>Contribute:</small> github.com/OSGeo/grass</a>
-    </p>
-    <p>
-        <small>Get support from NC State University:</small> vpetras&#64;ncsu&#46;edu
-    </p>
-    <p>
+        <small>Email:</small> vpetras&#64;ncsu&#46;edu
+        <br>
         <a href="https://twitter.com/vaclavpetras/"><small>Twitter:</small> vaclavpetras</a>
         <br>
         <a href="https://www.linkedin.com/in/vaclav-petras-a24a1b114/"><small>LinkedIn:</small> Vaclav Petras</a>
     </p>
     <p>
-        <a href="https://wenzeslaus.github.io/code-quality-measures-foss4g-2022/">wenzeslaus.github.io/code-quality-measures-foss4g-2022</a>
-</section>
-
-<section>
-    <h2>Bonus Content</h2>
-</section>
-
-
-<section>
-    <h2>Changes in Mindset</h2>
-</section>
-
-
-<section>
-    <h2>If It Ain't Broke, Don't Fix It, Or?</h2>
-
-    <p>
-    Why to Change Code which Works?
-    </p>
-
-    <p>
-    With languages, dependencies, operating systems changing fasts,
-    even stable code needs modifications.
-    So, you may as well update the code to latest standard because:
-    </p>
-
-    <ul>
-        <li>Non-compliant code broken.</li>
-    </ul>
-
-    <p>
-    Even if you don't care about best practices:
-    <p>
-
-    <ul>
-        <li>Hard to maintain code is broken.</li>
-        <li>Hard to change code is broken.</li>
-    </ul>
-
-    <p>
-    When you can apply automatic linters, maintaining and changing the code is simpler
-    because there is more checks in place.
-    </p>
-</section>
-
-
-<section>
-    <h2>Correctness Over Consistency</h2>
-    <p>
-        Should I changing surrounding code only because it is ugly?
-    </p>
-    <p>
-        Don't add bad code because the surrounding code is bad.
-    </p>
-    <p>
-        Leave the code in a better condition than when you found it.
-    </p>
-</section>
-
-
-<section>
-    <h2>Best Practices Change</h2>
-    Best practices are a moving target.
-    <ul>
-        <li>Black formatting may change with new version of Black (each year).</li>
-        <li>What is best formatting changes as new issues or use cases are discovered.</li>
-        <li>Formatting may change with new syntax available.</li>
-        <li>Best practices may change with new libraries, syntax, or security concerns.</li>
-    </ul>
-    <p>
-        So, the code will change (and that's fine).
-    </p>
-</section>
-
-
-<section>
-    <h2>Please, test!</h2>
-    <quote>
-        <em>The day when all manual testing will be obsolete because of some tool is very far away.</em>
+        <a href="https://github.com/OSGeo/grass/"><small>Project repo:</small> github.com/OSGeo/grass</a>
         <br>
-        <div style="text-align: right; padding-top: 1ex;">
-            &mdash; <a href="https://cppcheck.sourceforge.io">Cppcheck documentation</a>
-        </div>
-    </quote>
-
+        <a href="https://grass.osgeo.org/"><small>Project website:</small> grass.osgeo.org</a>
+    </p>
     <p>
-        Linters work together with, not instead of manual testing and written tests.
+        <a href="https://wenzeslaus.github.io/grass-gis-cybersecurity-practicum-pitch/">wenzeslaus.github.io/grass-gis-cybersecurity-practicum-pitch</a>
+        <a href="https://wenzeslaus.github.io/code-quality-measures-foss4g-2022/">wenzeslaus.github.io/code-quality-measures-foss4g-2022</a>
+    </p>
+    <p style="margin-top: 1em;">
+        <img src="img/grass_gis.svg" width="17%">&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="img/cga_ncsu.png" width="25%">&nbsp;&nbsp;
+        <img src="img/NSF_logo.png" width="20%">
     </p>
 </section>
-
-
-<section>
-    <h2>More about GRASS GIS</h2>
-</section>
-
-
-<section>
-    <h2>Addons Repository</h2>
-    <ul>
-        <li>Community-maintained tools <small>(addons aka extensions, plugins)</small></li>
-        <li>Separate from the main repository, but only one repository</li>
-        <li>A repository with the source code, not just a registry</li>
-        <li>Best of both worlds:
-            <ul>
-                <li>Broader community of contributors <small>including one-time contributors</small></li>
-                <li>Single repository maintained by the core community <small>similarly to the main repository</small></li>
-            </ul>
-        </li>
-    </ul>
-    <img src="img/grass_team.jpg" class="stretch">
-</section>
-
 
 
             </div>
